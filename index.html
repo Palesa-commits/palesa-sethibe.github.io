@@ -5,24 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Palesa Sethibe - Data Analyst Portfolio</title>
     <style>
-        /* ===== BASIC RESET ===== */
+        
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
-
-        /* ===== BODY STYLING - YOUR CUSTOM COLORS ===== */
+        
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdara, sans-serif;
             line-height: 1.6;
             color: #333;
-            /* YOUR CUSTOM GRADIENT: Brownish-Pinkish Nude Background */
             background: linear-gradient(135deg, #e6d5d1 0%, #f0e4e0 50%, #f5ede9 100%);
             min-height: 100vh;
         }
 
-        /* ===== CONTAINER ===== */
         .container {
             max-width: 1200px;
             margin: 0 auto;
@@ -45,17 +42,17 @@
             height: 350px;
             border-radius: 50%;
             margin-bottom: 20px;
-            border: 5px solid #f5ede9;  /* Light nude border to match background */
-            box-shadow: 0 5px 20px rgba(90, 58, 77, 0.3);  /* Bolder purplish brown glow */
+            border: 5px solid #f5ede9;  
+            box-shadow: 0 5px 20px rgba(90, 58, 77, 0.3);  
             object-fit: cover;
         }
 
-        /* HEADING - Purplish Brown - BOLDER */
+        
         h1 {
-            color: #5a3a4d;  /* Deeper, bolder purplish brown */
+            color: #5a3a4d;  
             font-size: 2.5em;
             margin-bottom: 10px;
-            font-weight: 700;  /* Extra bold */
+            font-weight: 700;  
         }
 
         .subtitle {
@@ -73,14 +70,14 @@
         }
 
         .contact-info a {
-            color: #5a3a4d;  /* Bolder purplish brown to match h1 */
+            color: #5a3a4d;  
             text-decoration: none;
-            font-weight: 600;  /* Semi-bold */
+            font-weight: 600; 
             transition: color 0.3s;
         }
 
         .contact-info a:hover {
-            color: #8d6e7e;  /* Lighter purplish brown on hover */
+            color: #8d6e7e;  
         }
 
         /* ===== SECTION STYLING ===== */
@@ -92,20 +89,19 @@
             margin-bottom: 40px;
         }
 
-        /* SUBHEADINGS - Purplish Brown - BOLDER */
         h2 {
-            color: #6d4c5f;  /* Deeper, bolder purplish brown */
+            color: #6d4c5f;  
             font-size: 2em;
             margin-bottom: 30px;
             border-bottom: 3px solid #6d4c5f;
             padding-bottom: 10px;
-            font-weight: 700;  /* Extra bold */
+            font-weight: 700;  
         }
 
         .about-text {
             font-size: 1.1em;
             line-height: 1.8;
-            color: #555;  /* Regular text stays as is */
+            color: #555;  
         }
 
         /* ===== SKILLS GRID ===== */
@@ -120,14 +116,14 @@
             background: #f8f9fa;
             padding: 20px;
             border-radius: 10px;
-            border-left: 4px solid #6d4c5f;  /* Bolder purplish brown accent */
+            border-left: 4px solid #6d4c5f;  
         }
 
         .skill-category h3 {
-            color: #6d4c5f;  /* Bolder purplish brown subheadings */
+            color: #6d4c5f;  
             margin-bottom: 15px;
             font-size: 1.2em;
-            font-weight: 700;  /* Extra bold */
+            font-weight: 700;  
         }
 
         .skill-category ul {
@@ -141,7 +137,7 @@
 
         .skill-category li:before {
             content: "▹ ";
-            color: #6d4c5f;  /* Bolder purplish brown bullets */
+            color: #6d4c5f; 
             font-weight: bold;
         }
 
@@ -169,7 +165,7 @@
             background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
             padding: 30px;
             border-radius: 15px;
-            border-left: 5px solid #6d4c5f;  /* Bolder purplish brown accent */
+            border-left: 5px solid #6d4c5f;  
             transition: transform 0.3s, box-shadow 0.3s;
         }
 
@@ -179,14 +175,14 @@
         }
 
         .project-card h3 {
-            color: #6d4c5f;  /* Bolder purplish brown subheadings */
+            color: #6d4c5f;  
             font-size: 1.5em;
             margin-bottom: 15px;
-            font-weight: 700;  /* Extra bold */
+            font-weight: 700;  
         }
 
         .project-card p {
-            color: #555;  /* Regular text */
+            color: #555;  
             margin-bottom: 15px;
             line-height: 1.7;
         }
@@ -199,12 +195,12 @@
         }
 
         .tool-tag {
-            background: #6d4c5f;  /* Bolder purplish brown tags */
+            background: #6d4c5f;  
             color: white;
             padding: 5px 15px;
             border-radius: 20px;
             font-size: 0.9em;
-            font-weight: 600;  /* Semi-bold */
+            font-weight: 600;  
         }
 
         .project-links {
@@ -214,17 +210,17 @@
         }
 
         .project-links a {
-            background: #6d4c5f;  /* Bolder purplish brown buttons */
+            background: #6d4c5f;  
             color: white;
             padding: 10px 25px;
             border-radius: 8px;
             text-decoration: none;
-            font-weight: 600;  /* Semi-bold */
+            font-weight: 600;  
             transition: background 0.3s;
         }
 
         .project-links a:hover {
-            background: #5a3a4d;  /* Even darker purplish brown on hover */
+            background: #5a3a4d;  
         }
 
         /* ===== FOOTER ===== */
@@ -236,7 +232,7 @@
             text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
         }
 
-        /* ===== RESPONSIVE DESIGN ===== */
+    
         @media (max-width: 768px) {
             h1 {
                 font-size: 2em;
@@ -256,7 +252,7 @@
             }
         }
 
-        /* ===== SMOOTH ANIMATIONS ===== */
+        
         @keyframes fadeInUp {
             from {
                 opacity: 0;
@@ -283,7 +279,7 @@
 </head>
 <body>
     <div class="container">
-        <!-- ===== HEADER: YOUR NAME AND CONTACT ===== -->
+    
         <header>
             
             <img src="profile.jpg" alt="Palesa Sethibe" class="profile-photo">
@@ -364,10 +360,9 @@ solutions to solve real-world business problems.
     
     <h3>Learning Difficulty Screening Tool</h3>
     <p>
-        Developed a data-driven screening tool for early identification of possible 
-        learning difficulties in students. Includes questionnaire packages for parents, 
-        teachers, and schools, with a percentage-based unified scoring system designed 
-        for non-technical audiences.
+        Developed a data-driven educational screening framework to support early identification of potential learning difficulties using academic performance patterns and risk indicators.
+        Conducted statistical analysis and exploratory data analysis (EDA), built a risk scoring framework and designed printable screening questionnaires to support awareness and early educational intervention, particularly in under-resourced communities.
+
     </p>
      <div class="project-tools">
                         <span class="tool-tag">Python</span>
@@ -384,11 +379,7 @@ solutions to solve real-world business problems.
 </div>
                 <!-- PROJECT 1: Music and Mental Health -->
                 <div class="project-card">
-                    <!-- TO ADD PROJECT IMAGE:
-                    1. Save your project screenshot as "project1.jpg" (or .png) in the same folder
-                    2. Remove the comment symbols below (the lines with arrows)
-                    3. Change "project1.jpg" to match your filename
-                    -->
+                
                         <img src="project1.jpg" alt="Music and Mental Health Dashboard" class="project-image">
                     
                     <h3>Music and Mental Health Analysis</h3>
